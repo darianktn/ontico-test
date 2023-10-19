@@ -1,0 +1,92 @@
+@media (max-width: 1440px) {
+	.container {
+		padding: 0 97px;
+	}
+
+	#cards-container {
+		grid-template-columns: repeat(3, 1fr);
+		gap: calc(20px + 10 * (100vw - 756px) / (1500 - 756));
+	}
+
+	.footer {
+		background-position: top right -162px;
+		background-size: 85% 85%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		padding: 0 57px;
+	}
+
+	#cards-container {
+		padding: 133px 0;
+		grid-template-columns: 1fr 1fr;
+		gap: calc(20px + 10 * (100vw - 756px) / (1500 - 756));
+	}
+
+	.footer {
+		background-position: top right -120px;
+		background-size: 75% 75%;
+	}
+
+	#brief {
+		font-size: 14px;
+	}
+
+	#location,
+	.link {
+		font-size: 12px;
+	}
+
+	.footer__title,
+	.footer__supports,
+	.footer__socials,
+	.footer__link,
+	.footer__copyright,
+	#buy,
+	#uri,
+	#date_range {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		padding: 0 57px;
+	}
+
+	#cards-container {
+		padding: 33px 0;
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+
+	.footer {
+		background-image: none;
+	}
+
+	.footer__copyright,
+	.footer__supports {
+		width: 100%;
+	}
+}
+
+@media (max-width: 375px) {
+	.container {
+		padding: 0 17px;
+	}
+
+	#cards-container {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+
+	.footer__help {
+		text-align: center;
+	}
+
+	.card {
+		padding: 25px 30px;
+	}
+}
