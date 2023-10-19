@@ -82,6 +82,10 @@
 		gap: 20px;
 	}
 
+	.footer {
+		padding: 33px 0;
+	}
+
 	.footer__help {
 		text-align: center;
 	}
